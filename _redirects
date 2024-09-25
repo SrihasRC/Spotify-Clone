@@ -1,1 +1,5 @@
-/songs/*   /index.html   200
+# Allow access to /songs/ without redirecting
+/songs/*   /songs/:splat    200
+
+# Catch-all redirect for SPA routing
+/*         /index.html      200
